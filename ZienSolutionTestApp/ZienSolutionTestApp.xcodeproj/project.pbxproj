@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		385DBFD9E1E43DAD998BD64C /* Pods_ZienSolutionTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E96B16D6B272319044AA4CE /* Pods_ZienSolutionTestApp.framework */; };
+		506747B825EE207800C1BE2B /* ZienSolutionTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506747B725EE207800C1BE2B /* ZienSolutionTestAppApp.swift */; };
+		506747BA25EE207800C1BE2B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506747B925EE207800C1BE2B /* MainView.swift */; };
+		506747BC25EE207800C1BE2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506747BB25EE207800C1BE2B /* Assets.xcassets */; };
+		506747BF25EE207800C1BE2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506747BE25EE207800C1BE2B /* Preview Assets.xcassets */; };
+		5067481825EE295200C1BE2B /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5067481725EE295200C1BE2B /* CustomView.swift */; };
+		5067485225EF5C8700C1BE2B /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5067484025EF5C8600C1BE2B /* SF-Pro-Display-Regular.otf */; };
+		5067485325EF5C8700C1BE2B /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5067484125EF5C8600C1BE2B /* SF-Pro-Display-RegularItalic.otf */; };
+		5067485425EF5C8700C1BE2B /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5067484225EF5C8600C1BE2B /* SF-Pro-Display-Light.otf */; };
+		5067485525EF5C8700C1BE2B /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5067484325EF5C8600C1BE2B /* SF-Pro-Display-Medium.otf */; };
+		5067485625EF5C8700C1BE2B /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5067484425EF5C8600C1BE2B /* SF-Pro-Display-Ultralight.otf */; };
+		5067485725EF5C8700C1BE2B /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5067484525EF5C8700C1BE2B /* SF-Pro-Display-Thin.otf */; };
+		5067485825EF5C8700C1BE2B /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5067484625EF5C8700C1BE2B /* SF-Pro-Display-MediumItalic.otf */; };
+		5067485925EF5C8700C1BE2B /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5067484725EF5C8700C1BE2B /* SF-Pro-Display-Heavy.otf */; };
+		5067485A25EF5C8700C1BE2B /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5067484825EF5C8700C1BE2B /* SF-Pro-Display-BoldItalic.otf */; };
+		5067485B25EF5C8700C1BE2B /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5067484925EF5C8700C1BE2B /* SF-Pro-Display-SemiboldItalic.otf */; };
+		5067485C25EF5C8700C1BE2B /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5067484A25EF5C8700C1BE2B /* SF-Pro-Display-Bold.otf */; };
+		5067485D25EF5C8700C1BE2B /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5067484B25EF5C8700C1BE2B /* SF-Pro-Display-ThinItalic.otf */; };
+		5067485E25EF5C8700C1BE2B /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5067484C25EF5C8700C1BE2B /* SF-Pro-Display-UltralightItalic.otf */; };
+		5067485F25EF5C8700C1BE2B /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5067484D25EF5C8700C1BE2B /* SF-Pro-Display-HeavyItalic.otf */; };
+		5067486025EF5C8700C1BE2B /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5067484E25EF5C8700C1BE2B /* SF-Pro-Display-LightItalic.otf */; };
+		5067486125EF5C8700C1BE2B /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5067484F25EF5C8700C1BE2B /* SF-Pro-Display-BlackItalic.otf */; };
+		5067486225EF5C8700C1BE2B /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5067485025EF5C8700C1BE2B /* SF-Pro-Display-Black.otf */; };
+		5067486325EF5C8700C1BE2B /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5067485125EF5C8700C1BE2B /* SF-Pro-Display-Semibold.otf */; };
+		5067486925EFB12700C1BE2B /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5067486825EFB12700C1BE2B /* SheetView.swift */; };
+		5067486D25EFB17800C1BE2B /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5067486C25EFB17800C1BE2B /* TabBarView.swift */; };
+		5067487125EFB1F000C1BE2B /* HomeHeaderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5067487025EFB1F000C1BE2B /* HomeHeaderItem.swift */; };
+		5067487525EFB28D00C1BE2B /* CustomPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5067487425EFB28D00C1BE2B /* CustomPageController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E96B16D6B272319044AA4CE /* Pods_ZienSolutionTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZienSolutionTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3952104EE7FF2320E8C4ABEE /* Pods-ZienSolutionTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZienSolutionTestApp.release.xcconfig"; path = "Target Support Files/Pods-ZienSolutionTestApp/Pods-ZienSolutionTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		506747B425EE207800C1BE2B /* ZienSolutionTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZienSolutionTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		506747B725EE207800C1BE2B /* ZienSolutionTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZienSolutionTestAppApp.swift; sourceTree = "<group>"; };
+		506747B925EE207800C1BE2B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		506747BB25EE207800C1BE2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		506747BE25EE207800C1BE2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		506747C025EE207800C1BE2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5067481725EE295200C1BE2B /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		5067484025EF5C8600C1BE2B /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		5067484125EF5C8600C1BE2B /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
+		5067484225EF5C8600C1BE2B /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		5067484325EF5C8600C1BE2B /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		5067484425EF5C8600C1BE2B /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		5067484525EF5C8700C1BE2B /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
+		5067484625EF5C8700C1BE2B /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
+		5067484725EF5C8700C1BE2B /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
+		5067484825EF5C8700C1BE2B /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
+		5067484925EF5C8700C1BE2B /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		5067484A25EF5C8700C1BE2B /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		5067484B25EF5C8700C1BE2B /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
+		5067484C25EF5C8700C1BE2B /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
+		5067484D25EF5C8700C1BE2B /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
+		5067484E25EF5C8700C1BE2B /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
+		5067484F25EF5C8700C1BE2B /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		5067485025EF5C8700C1BE2B /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		5067485125EF5C8700C1BE2B /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		5067486825EFB12700C1BE2B /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		5067486C25EFB17800C1BE2B /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		5067487025EFB1F000C1BE2B /* HomeHeaderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderItem.swift; sourceTree = "<group>"; };
+		5067487425EFB28D00C1BE2B /* CustomPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageController.swift; sourceTree = "<group>"; };
+		D040D64F1324BEEC8D62C5C3 /* Pods-ZienSolutionTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZienSolutionTestApp.debug.xcconfig"; path = "Target Support Files/Pods-ZienSolutionTestApp/Pods-ZienSolutionTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		506747B125EE207800C1BE2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385DBFD9E1E43DAD998BD64C /* Pods_ZienSolutionTestApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20CA765C8224C60C3E038DBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D040D64F1324BEEC8D62C5C3 /* Pods-ZienSolutionTestApp.debug.xcconfig */,
+				3952104EE7FF2320E8C4ABEE /* Pods-ZienSolutionTestApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		506747AB25EE207800C1BE2B = {
+			isa = PBXGroup;
+			children = (
+				506747B625EE207800C1BE2B /* ZienSolutionTestApp */,
+				506747B525EE207800C1BE2B /* Products */,
+				20CA765C8224C60C3E038DBF /* Pods */,
+				CFB3CBBE7894A8333EB40DF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		506747B525EE207800C1BE2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				506747B425EE207800C1BE2B /* ZienSolutionTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		506747B625EE207800C1BE2B /* ZienSolutionTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				5067482D25EF5C2A00C1BE2B /* Fonts */,
+				5067486B25EFB14B00C1BE2B /* View */,
+				506747BB25EE207800C1BE2B /* Assets.xcassets */,
+				506747C025EE207800C1BE2B /* Info.plist */,
+				506747BD25EE207800C1BE2B /* Preview Content */,
+			);
+			path = ZienSolutionTestApp;
+			sourceTree = "<group>";
+		};
+		506747BD25EE207800C1BE2B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				506747BE25EE207800C1BE2B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5067481625EE294400C1BE2B /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				5067481725EE295200C1BE2B /* CustomView.swift */,
+				5067487425EFB28D00C1BE2B /* CustomPageController.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		5067482D25EF5C2A00C1BE2B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5067485025EF5C8700C1BE2B /* SF-Pro-Display-Black.otf */,
+				5067484F25EF5C8700C1BE2B /* SF-Pro-Display-BlackItalic.otf */,
+				5067484A25EF5C8700C1BE2B /* SF-Pro-Display-Bold.otf */,
+				5067484825EF5C8700C1BE2B /* SF-Pro-Display-BoldItalic.otf */,
+				5067484725EF5C8700C1BE2B /* SF-Pro-Display-Heavy.otf */,
+				5067484D25EF5C8700C1BE2B /* SF-Pro-Display-HeavyItalic.otf */,
+				5067484225EF5C8600C1BE2B /* SF-Pro-Display-Light.otf */,
+				5067484E25EF5C8700C1BE2B /* SF-Pro-Display-LightItalic.otf */,
+				5067484325EF5C8600C1BE2B /* SF-Pro-Display-Medium.otf */,
+				5067484625EF5C8700C1BE2B /* SF-Pro-Display-MediumItalic.otf */,
+				5067484025EF5C8600C1BE2B /* SF-Pro-Display-Regular.otf */,
+				5067484125EF5C8600C1BE2B /* SF-Pro-Display-RegularItalic.otf */,
+				5067485125EF5C8700C1BE2B /* SF-Pro-Display-Semibold.otf */,
+				5067484925EF5C8700C1BE2B /* SF-Pro-Display-SemiboldItalic.otf */,
+				5067484525EF5C8700C1BE2B /* SF-Pro-Display-Thin.otf */,
+				5067484B25EF5C8700C1BE2B /* SF-Pro-Display-ThinItalic.otf */,
+				5067484425EF5C8600C1BE2B /* SF-Pro-Display-Ultralight.otf */,
+				5067484C25EF5C8700C1BE2B /* SF-Pro-Display-UltralightItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5067486B25EFB14B00C1BE2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5067481625EE294400C1BE2B /* CustomView */,
+				506747B725EE207800C1BE2B /* ZienSolutionTestAppApp.swift */,
+				506747B925EE207800C1BE2B /* MainView.swift */,
+				5067487025EFB1F000C1BE2B /* HomeHeaderItem.swift */,
+				5067486C25EFB17800C1BE2B /* TabBarView.swift */,
+				5067486825EFB12700C1BE2B /* SheetView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFB3CBBE7894A8333EB40DF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E96B16D6B272319044AA4CE /* Pods_ZienSolutionTestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		506747B325EE207800C1BE2B /* ZienSolutionTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506747C325EE207800C1BE2B /* Build configuration list for PBXNativeTarget "ZienSolutionTestApp" */;
+			buildPhases = (
+				4D24F4353F979EF20F9D8739 /* [CP] Check Pods Manifest.lock */,
+				506747B025EE207800C1BE2B /* Sources */,
+				506747B125EE207800C1BE2B /* Frameworks */,
+				506747B225EE207800C1BE2B /* Resources */,
+				18D2A220BBD7B58C171459AD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZienSolutionTestApp;
+			productName = ZienSolutionTestApp;
+			productReference = 506747B425EE207800C1BE2B /* ZienSolutionTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		506747AC25EE207800C1BE2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					506747B325EE207800C1BE2B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 506747AF25EE207800C1BE2B /* Build configuration list for PBXProject "ZienSolutionTestApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 506747AB25EE207800C1BE2B;
+			productRefGroup = 506747B525EE207800C1BE2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				506747B325EE207800C1BE2B /* ZienSolutionTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		506747B225EE207800C1BE2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5067485725EF5C8700C1BE2B /* SF-Pro-Display-Thin.otf in Resources */,
+				5067485925EF5C8700C1BE2B /* SF-Pro-Display-Heavy.otf in Resources */,
+				5067485525EF5C8700C1BE2B /* SF-Pro-Display-Medium.otf in Resources */,
+				5067485325EF5C8700C1BE2B /* SF-Pro-Display-RegularItalic.otf in Resources */,
+				5067485625EF5C8700C1BE2B /* SF-Pro-Display-Ultralight.otf in Resources */,
+				5067485825EF5C8700C1BE2B /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				5067485425EF5C8700C1BE2B /* SF-Pro-Display-Light.otf in Resources */,
+				5067485C25EF5C8700C1BE2B /* SF-Pro-Display-Bold.otf in Resources */,
+				5067485A25EF5C8700C1BE2B /* SF-Pro-Display-BoldItalic.otf in Resources */,
+				5067485E25EF5C8700C1BE2B /* SF-Pro-Display-UltralightItalic.otf in Resources */,
+				5067485B25EF5C8700C1BE2B /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
+				5067486225EF5C8700C1BE2B /* SF-Pro-Display-Black.otf in Resources */,
+				5067486325EF5C8700C1BE2B /* SF-Pro-Display-Semibold.otf in Resources */,
+				5067485D25EF5C8700C1BE2B /* SF-Pro-Display-ThinItalic.otf in Resources */,
+				506747BF25EE207800C1BE2B /* Preview Assets.xcassets in Resources */,
+				5067486125EF5C8700C1BE2B /* SF-Pro-Display-BlackItalic.otf in Resources */,
+				5067485225EF5C8700C1BE2B /* SF-Pro-Display-Regular.otf in Resources */,
+				506747BC25EE207800C1BE2B /* Assets.xcassets in Resources */,
+				5067486025EF5C8700C1BE2B /* SF-Pro-Display-LightItalic.otf in Resources */,
+				5067485F25EF5C8700C1BE2B /* SF-Pro-Display-HeavyItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18D2A220BBD7B58C171459AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZienSolutionTestApp/Pods-ZienSolutionTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZienSolutionTestApp/Pods-ZienSolutionTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZienSolutionTestApp/Pods-ZienSolutionTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D24F4353F979EF20F9D8739 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZienSolutionTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		506747B025EE207800C1BE2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5067487125EFB1F000C1BE2B /* HomeHeaderItem.swift in Sources */,
+				5067487525EFB28D00C1BE2B /* CustomPageController.swift in Sources */,
+				5067481825EE295200C1BE2B /* CustomView.swift in Sources */,
+				506747BA25EE207800C1BE2B /* MainView.swift in Sources */,
+				5067486925EFB12700C1BE2B /* SheetView.swift in Sources */,
+				5067486D25EFB17800C1BE2B /* TabBarView.swift in Sources */,
+				506747B825EE207800C1BE2B /* ZienSolutionTestAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		506747C125EE207800C1BE2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		506747C225EE207800C1BE2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		506747C425EE207800C1BE2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D040D64F1324BEEC8D62C5C3 /* Pods-ZienSolutionTestApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ZienSolutionTestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 7PU8V8R57Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ZienSolutionTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ken.ZienSolutionTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		506747C525EE207800C1BE2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3952104EE7FF2320E8C4ABEE /* Pods-ZienSolutionTestApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ZienSolutionTestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 7PU8V8R57Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ZienSolutionTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ken.ZienSolutionTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		506747AF25EE207800C1BE2B /* Build configuration list for PBXProject "ZienSolutionTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506747C125EE207800C1BE2B /* Debug */,
+				506747C225EE207800C1BE2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506747C325EE207800C1BE2B /* Build configuration list for PBXNativeTarget "ZienSolutionTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506747C425EE207800C1BE2B /* Debug */,
+				506747C525EE207800C1BE2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 506747AC25EE207800C1BE2B /* Project object */;
+}

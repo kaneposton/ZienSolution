@@ -1,0 +1,7 @@
+use_frameworks!
+
+target 'ZienSolutionTestApp' do
+    
+pod "Introspect"
+
+end
